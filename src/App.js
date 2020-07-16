@@ -43,7 +43,6 @@ function App() {
       .get(eonetURL)
       .then((res) => {
         setCard(res.data.events)
-        console.log(card)
       })
       .catch((err) => {
         setCard(eonetRaw.events)

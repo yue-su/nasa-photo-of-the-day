@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  background-color: #fef6e4;
 }
 
 .App-logo {
@@ -35,14 +36,4 @@
   to {
     transform: rotate(360deg);
   }
-}
-
-.hero {
-  height: 60vh;
-  width: 100%;
-  color: white;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  background-size: cover;
 }
