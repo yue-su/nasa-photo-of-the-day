@@ -1,10 +1,8 @@
-import React from "react";
-import "../App.css";
+import React from "react"
+import "../App.css"
 
 function Header(props) {
-    return (
-      <div>header</div>  
-    )
+  return <h1>Header</h1>
 }
 
 export default Header
